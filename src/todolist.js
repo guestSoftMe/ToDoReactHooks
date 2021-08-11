@@ -10,7 +10,6 @@ import {Context} from "./context";
 let Todolist = ({todo,id}) =>{
     const [checked, setChecked] = useState();
     let {delet} = useContext(Context)
-    console.log(delet)
 
     return (
         <li className={classNames('todoli',checked && 'checked')}>
